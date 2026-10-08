@@ -1,0 +1,13 @@
+.site-main { max-width: 1120px; margin: auto; padding: 40px 32px 48px; }
+.site-intro { padding: 0 0 32px; }
+.site-intro h1 { margin: 12px 0 16px; }
+.site-intro .intro { margin-bottom: 20px; }
+.site-nav, .project-title { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.site-nav { font-size: 14px; }
+.site-nav a { text-decoration: none; }
+.project-section { padding: 28px 0; border-top: 1px solid var(--border); }
+.project-section p { line-height: 1.8; color: var(--subtle); }
+.project-section .detail { color: var(--muted); }
+.project-image { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; margin-top: 24px; }
+@media (max-width: 800px) { .site-main { padding: 28px 24px; } .site-nav { gap: 12px; } }
+@media (max-width: 380px) { .site-main { padding-inline: 16px; } .site-nav { font-size: 12px; } }
