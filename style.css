@@ -158,6 +158,12 @@ td.message { max-width: 280px; overflow-wrap: anywhere; }
 .review-checklist { list-style: none; margin: 24px 0; padding: 0; }
 .review-checklist li { padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; line-height: 1.7; }
 .review-checklist .complete { color: var(--green); }
+.analytics-consent { max-width: 1120px; margin: auto; padding: 20px 32px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.analytics-consent h2 { font-size: 16px; }
+.analytics-consent p { font-size: 13px; line-height: 1.8; color: var(--subtle); margin: 8px 0 0; }
+.analytics-actions { display: flex; flex-shrink: 0; gap: 8px; }
+.analytics-actions button { min-height: 42px; min-width: 68px; padding: 8px 16px; border: 1px solid var(--border); border-radius: 4px; background: var(--surface); }
+.analytics-settings { padding: 0; border: 0; background: transparent; font-size: inherit; color: inherit; text-align: left; }
 .amounts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 @media (max-width: 800px) {
@@ -172,6 +178,7 @@ td.message { max-width: 280px; overflow-wrap: anywhere; }
   footer { flex-wrap: wrap; gap: 16px; }
   .stats { gap: 12px; }
   .stats strong { font-size: 20px; }
+  .analytics-consent { padding: 20px 24px; flex-wrap: wrap; gap: 16px; }
 }
 @media (max-width: 380px) {
   header, footer, .support-layout, .simple-main, .admin-main { padding-inline: 16px; }
@@ -180,4 +187,5 @@ td.message { max-width: 280px; overflow-wrap: anywhere; }
   .stats { grid-template-columns: 1fr; gap: 16px; }
   .channel { font-size: 12px; }
   .brand { font-size: 20px; }
+  .analytics-consent { padding-inline: 16px; }
 }
